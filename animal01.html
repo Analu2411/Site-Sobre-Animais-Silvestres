@@ -1,30 +1,40 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoFauna</title>
+    <title>EcoFauna - Onça-Pintada</title>
+    <link rel="shortcut icon" href="globo.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>EcoFauna</h1>
-        <h2>Animais da Fauna Brasileira</h2>
-        <nav>
+    <header class="header">
+        <a href="index.html" class="logo">EcoFauna</a>
+        
+        <nav class="navbar">
             <a href="index.html">Início</a>
             <a href="contato.html">Contato</a>
         </nav>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
     </header>
+
     <main>
-        <section>
-            <h1>Onça-Pintada</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zofqhz9wdfY?si=TKq0WhHaGN87RQP6&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <section class="animal-detail">
+            <h1 class="page-title">Onça-Pintada</h1>
+            
+            <div class="responsive-video">
+                <iframe src="https://www.youtube.com/embed/zofqhz9wdfY?si=TKq0WhHaGN87RQP6&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
             <h2>Fatos</h2>
             <ul>
                 <li>Maior felino das Américas.</li>
                 <li>Vive na Amazônia.</li>
                 <li>Tem pintas pretas e caça muito bem.</li>
             </ul>
+            
             <h2>Pontos interessantes</h2>
             <ol>
                 <li>É carnívora.</li>
@@ -33,8 +43,11 @@
             </ol>
         </section>
     </main>
-    <footer>
-        <p>Todos os direitos reservados -Ana Moraes (2025)</p>
+    
+    <footer class="footer">
+        <p>Todos os direitos reservados - Ana Moraes (2025)</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
